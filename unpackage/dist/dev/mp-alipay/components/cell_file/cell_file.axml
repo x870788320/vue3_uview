@@ -1,0 +1,1 @@
+<view class="com_file" onTap="{{d}}"><view class="com_fileL"><image class="com_fileLImg" src="{{a}}" alt=""></image></view><view class="com_fileR"><view class="com_fileRT"><text>{{b}}</text></view><view a:for="{{c}}" a:for-item="item" class="cell2RItem"><text>{{item.a}}：</text><text>{{item.b}}</text></view></view></view>

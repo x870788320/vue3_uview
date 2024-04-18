@@ -1,0 +1,348 @@
+{
+	// "easycom": {
+	// 	//注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+	// 	"custom": {
+	// 		"^u--(.*)": "@/uview-plus/components/u-$1/u-$1.vue",
+	// 		"^up-(.*)": "@/uview-plus/components/u-$1/u-$1.vue",
+	// 		"^u-([^-].*)": "@/uview-plus/components/u-$1/u-$1.vue"
+	// 	}
+	// },
+	
+// 如果您是通过uni_modules形式引入uview-plus，可以忽略此配置
+	// "easycom": {
+	// 	"^u-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+	// },
+	"custom": {
+			"^u--(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+		// 首页
+		{
+			"path" : "pages/task/task",
+			"style" : 
+			{
+				"navigationBarTitleText" : "恒通股份",
+				"enablePullDownRefresh" : false
+			}
+		},
+		// 任务
+		{
+			"path" : "pages/taskHideRule/taskHideRule",
+			"style" : 
+			{
+				"navigationBarTitleText" : "隐患治理",
+				"enablePullDownRefresh" : false
+			}
+		},	
+		{
+			"path" : "pages/taskHideUp/taskHideUp",
+			"style" : 
+			{
+				"navigationBarTitleText" : "隐患上传",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/taskTrainPlan/taskTrainPlan",
+			"style" : 
+			{
+				"navigationBarTitleText" : "培训列表",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/taskRespkp/taskRespkp",
+			"style" : 
+			{
+				"navigationBarTitleText" : "责任制考评",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/taskCulture/taskCulture",
+			"style" : 
+			{
+				"navigationBarTitleText" : "安全文化",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/taskDanCheck/taskDanCheck",
+			"style" : 
+			{
+				"navigationBarTitleText" : "检查任务",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/taskCollectGood/taskCollectGood",
+			"style" : 
+			{
+				"navigationBarTitleText" : "劳动防护用品领用",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/taskLetter/taskLetter",
+			"style" : 
+			{
+				"navigationBarTitleText" : "安全责任体系",
+				"enablePullDownRefresh" : false
+			}
+		},
+		
+		
+		
+			
+		// 应知应会
+		{
+			"path" : "pages/know/know",
+			"style" : 
+			{
+				"navigationBarTitleText" : "恒通股份",
+				"enablePullDownRefresh" : false
+			}
+		},
+		// 应知应会 目标责任书
+		{
+			"path" : "pages/knowSign/knowSign",
+			"style" : 
+			{
+				"navigationBarTitleText" : "安全责任体系",
+				"enablePullDownRefresh" : false
+			}
+		},
+		
+		
+		
+		// 应用
+		{
+			"path" : "pages/apply/apply",
+			"style" : 
+			{
+				"navigationBarTitleText" : "恒通股份",
+				"enablePullDownRefresh" : false
+			}
+		},
+		// {
+		// 	"path" : "pages/applyRandom/applyRandom",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "随手拍",
+		// 		"enablePullDownRefresh" : false
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/applyAcciUp/applyAcciUp",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "事故上报",
+		// 		"enablePullDownRefresh" : false
+		// 	}
+		// },
+		{
+			"path" : "pages/applyAcciReply/applyAcciReply",
+			"style" : 
+			{
+				"navigationBarTitleText" : "事故批复",
+				"enablePullDownRefresh" : false
+			}
+		},
+		// {
+		// 	"path" : "pages/applyWork/applyWork",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "特殊作业管理",
+		// 		"enablePullDownRefresh" : false
+		// 	}
+		// },
+		{
+			"path" : "pages/applyRisk/applyRisk",
+			"style" : 
+			{
+				"navigationBarTitleText" : "风险管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		
+		
+		
+			
+		// 个人中心
+		{
+			"path" : "pages/setting/setting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "恒通股份",
+				"enablePullDownRefresh" : false
+			}
+		},
+		
+		// 任务和应用共同页面
+		{
+			"path" : "pages/T_A_clapping/T_A_clapping",
+			"style" : 
+			{
+				"navigationBarTitleText" : "随手拍",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/T_A_acciUp/T_A_acciUp",
+			"style" : 
+			{
+				"navigationBarTitleText" : "事故上报",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/T_A_work/T_A_work",
+			"style" : 
+			{
+				"navigationBarTitleText" : "特殊作业管理",
+				"enablePullDownRefresh" : false
+			}
+		},
+		
+		
+		// 公共
+		{
+			"path" : "pages/comUserList/comUserList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户列表",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "恒通物流"
+			}
+		},
+		{
+			"path": "pages/comForm/comForm",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path" : "pages/comDocLearn/comDocLearn",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/comBranchList/comBranchList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/comModelList/comModelList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/comExam/comExam",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/comExamLook/comExamLook",
+			"style" : 
+			{
+				"navigationBarTitleText" : "查看试卷",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		// "navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		// "navigationBarBackgroundColor": "#F8F8F8",
+		// "backgroundColor": "#F8F8F8"
+	},
+	
+	// "globalStyle": {
+	// 	// "navigationBarTextStyle": "black",
+	// 	"navigationBarTitleText": "土拨鼠充电",
+	// 	"navigationBarBackgroundColor": "#0aa671",
+	// 	"backgroundColor": "#FFFFFF"
+	// },
+	"uniIdRouter": {},
+    "tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#0F1115",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+        "list": [
+			{
+				"pagePath": "pages/task/task",
+				"iconPath": "static/icon/tabbar/icon-tabbar-task.png",
+				"selectedIconPath": "static/icon/tabbar/icon-tabbar-task-active1.png",
+				"text": "任务"
+			},
+			{
+				"pagePath" : "pages/know/know",
+				"iconPath": "static/icon/tabbar/icon-tabber-learn.png",
+				"selectedIconPath": "static/icon/tabbar/icon-tabbar-learn-active1.png",
+				"text": "应知应会"
+			},
+			{
+				"pagePath" : "pages/apply/apply",
+				"iconPath": "static/icon/tabbar/icon-tabbar-ap.png",
+				"selectedIconPath": "static/icon/tabbar/icon-tabbar-ap-active1.png",
+				"text": "应用"
+			},
+			{
+				"pagePath" : "pages/setting/setting",
+				"iconPath": "static/icon/tabbar/icon-tabbar-setting.png",
+				"selectedIconPath": "static/icon/tabbar/icon-tabbar-setting-active1.png",
+				"text": "设置"
+			}
+			// {
+			// 	"pagePath": "pages/task/task"
+			// },
+			// {
+			// 	"pagePath" : "pages/know/know"
+			// },
+			// {
+			// 	"pagePath" : "pages/apply/apply"
+			// },
+			// {
+			// 	"pagePath" : "pages/setting/setting"
+			// }
+        ]
+  	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
+
+
+			

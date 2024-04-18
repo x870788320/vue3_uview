@@ -1,0 +1,10 @@
+{
+  "defaultTitle": "用户列表",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-search": "../../uni_modules/uview-plus/components/u-search/u-search",
+    "u-index-anchor": "../../uni_modules/uview-plus/components/u-index-anchor/u-index-anchor",
+    "u-index-item": "../../uni_modules/uview-plus/components/u-index-item/u-index-item",
+    "u-index-list": "../../uni_modules/uview-plus/components/u-index-list/u-index-list"
+  }
+}

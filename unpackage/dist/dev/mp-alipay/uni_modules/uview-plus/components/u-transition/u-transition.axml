@@ -1,0 +1,1 @@
+<view a:if="{{a}}" ref="u-transition" onTap="{{b}}" class="{{('u-transition') + ' ' + 'data-v-5cec8177' + ' ' + c}}" style="{{d}}" onTouchMove="{{e}}"><slot/></view>

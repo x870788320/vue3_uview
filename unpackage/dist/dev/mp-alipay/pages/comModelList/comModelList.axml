@@ -1,0 +1,1 @@
+<view class="applyAccident"><view a:for="{{a}}" a:for-item="item" class="applyAccidentItem" onTap="{{item.c}}"><image class="applyAccidentItemImg" src="{{item.a}}" alt=""></image> {{item.b}}</view></view>

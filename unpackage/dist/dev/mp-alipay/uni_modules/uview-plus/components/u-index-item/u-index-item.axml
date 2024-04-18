@@ -1,0 +1,1 @@
+<view id="{{a}}" class="{{('u-index-item') + ' ' + 'data-v-83b92c70' + ' ' + b}}"><slot/></view>

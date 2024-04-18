@@ -1,0 +1,10 @@
+{
+  "defaultTitle": "",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button",
+    "my_sign": "../../components/my_sign/my_sign",
+    "u-popup": "../../uni_modules/uview-plus/components/u-popup/u-popup",
+    "u-notify": "../../uni_modules/uview-plus/components/u-notify/u-notify"
+  }
+}

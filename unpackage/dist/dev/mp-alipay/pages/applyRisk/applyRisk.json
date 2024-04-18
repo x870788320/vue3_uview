@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "风险管理",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon",
+    "u-picker": "../../uni_modules/uview-plus/components/u-picker/u-picker"
+  }
+}

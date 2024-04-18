@@ -1,0 +1,9 @@
+{
+  "defaultTitle": "特殊作业管理",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-tabs": "../../uni_modules/uview-plus/components/u-tabs/u-tabs",
+    "cell2": "../../components/cell2/cell2",
+    "add-btn": "../../components/addBtn/addBtn"
+  }
+}

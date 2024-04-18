@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/task/task",
+    "pages/taskHideRule/taskHideRule",
+    "pages/taskHideUp/taskHideUp",
+    "pages/taskTrainPlan/taskTrainPlan",
+    "pages/taskRespkp/taskRespkp",
+    "pages/taskCulture/taskCulture",
+    "pages/taskDanCheck/taskDanCheck",
+    "pages/taskCollectGood/taskCollectGood",
+    "pages/taskLetter/taskLetter",
+    "pages/know/know",
+    "pages/knowSign/knowSign",
+    "pages/apply/apply",
+    "pages/applyAcciReply/applyAcciReply",
+    "pages/applyRisk/applyRisk",
+    "pages/setting/setting",
+    "pages/T_A_clapping/T_A_clapping",
+    "pages/T_A_acciUp/T_A_acciUp",
+    "pages/T_A_work/T_A_work",
+    "pages/comUserList/comUserList",
+    "pages/index/index",
+    "pages/comForm/comForm",
+    "pages/comDocLearn/comDocLearn",
+    "pages/comBranchList/comBranchList",
+    "pages/comModelList/comModelList",
+    "pages/comExam/comExam",
+    "pages/comExamLook/comExamLook"
+  ],
+  "window": {},
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#0F1115",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/task/task",
+        "name": "任务",
+        "icon": "static/icon/tabbar/icon-tabbar-task.png",
+        "activeIcon": "static/icon/tabbar/icon-tabbar-task-active1.png"
+      },
+      {
+        "pagePath": "pages/know/know",
+        "name": "应知应会",
+        "icon": "static/icon/tabbar/icon-tabber-learn.png",
+        "activeIcon": "static/icon/tabbar/icon-tabbar-learn-active1.png"
+      },
+      {
+        "pagePath": "pages/apply/apply",
+        "name": "应用",
+        "icon": "static/icon/tabbar/icon-tabbar-ap.png",
+        "activeIcon": "static/icon/tabbar/icon-tabbar-ap-active1.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "name": "设置",
+        "icon": "static/icon/tabbar/icon-tabbar-setting.png",
+        "activeIcon": "static/icon/tabbar/icon-tabbar-setting-active1.png"
+      }
+    ]
+  },
+  "subPackageBuildType": "shared",
+  "usingComponents": {}
+}

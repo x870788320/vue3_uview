@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "事故批复",
+  "pullRefresh": false,
+  "usingComponents": {
+    "cell1": "../../components/cell1/cell1"
+  }
+}

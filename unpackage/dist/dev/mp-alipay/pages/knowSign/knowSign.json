@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "安全责任体系",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-tabs": "../../uni_modules/uview-plus/components/u-tabs/u-tabs",
+    "u-input": "../../uni_modules/uview-plus/components/u-input/u-input"
+  }
+}

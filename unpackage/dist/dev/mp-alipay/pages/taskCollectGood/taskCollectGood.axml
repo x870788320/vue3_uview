@@ -1,0 +1,1 @@
+<view class="taskGood"><view a:for="{{a}}" a:for-item="item" class="taskGoodItem" onTap="{{item.c}}"><view class="taskGoodItemL"><image class="taskGoodItemLImg" src="{{item.a}}" alt=""></image></view><view class="taskGoodItemR"><view a:for="{{item.b}}" a:for-item="lineItem" class="box_ellipsis"><text>{{lineItem.a}}：</text><text>{{lineItem.b}}</text></view></view></view></view>

@@ -1,0 +1,1 @@
+<view class="mySign data-v-09d1b2ea"><view class="signContainer data-v-09d1b2ea"><canvas class="mycanvas data-v-09d1b2ea" canvasId="mycanvas" id="mycanvas" disableScroll="true" catchTouchStart="{{a}}" catchTouchMove="{{b}}" catchTouchEnd="{{c}}"></canvas></view></view>

@@ -1,0 +1,325 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* uni.scss */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+uni-view[data-v-06cca9b7], uni-scroll-view[data-v-06cca9b7], uni-swiper-item[data-v-06cca9b7] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-badge[data-v-06cca9b7] {
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+
+  display: flex;
+
+  flex-direction: row;
+  line-height: 11px;
+  text-align: center;
+  font-size: 11px;
+  color: #FFFFFF;
+}
+.u-badge--dot[data-v-06cca9b7] {
+  height: 8px;
+  width: 8px;
+}
+.u-badge--inverted[data-v-06cca9b7] {
+  font-size: 13px;
+}
+.u-badge--not-dot[data-v-06cca9b7] {
+  padding: 2px 5px;
+}
+.u-badge--horn[data-v-06cca9b7] {
+  border-bottom-left-radius: 0;
+}
+.u-badge--primary[data-v-06cca9b7] {
+  background-color: #3c9cff;
+}
+.u-badge--primary--inverted[data-v-06cca9b7] {
+  color: #3c9cff;
+}
+.u-badge--error[data-v-06cca9b7] {
+  background-color: #f56c6c;
+}
+.u-badge--error--inverted[data-v-06cca9b7] {
+  color: #f56c6c;
+}
+.u-badge--success[data-v-06cca9b7] {
+  background-color: #5ac725;
+}
+.u-badge--success--inverted[data-v-06cca9b7] {
+  color: #5ac725;
+}
+.u-badge--info[data-v-06cca9b7] {
+  background-color: #909399;
+}
+.u-badge--info--inverted[data-v-06cca9b7] {
+  color: #909399;
+}
+.u-badge--warning[data-v-06cca9b7] {
+  background-color: #f9ae3d;
+}
+.u-badge--warning--inverted[data-v-06cca9b7] {
+  color: #f9ae3d;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* uni.scss */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+uni-view[data-v-02b0c54f], uni-scroll-view[data-v-02b0c54f], uni-swiper-item[data-v-02b0c54f] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-tabs__wrapper[data-v-02b0c54f] {
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+}
+.u-tabs__wrapper__scroll-view-wrapper[data-v-02b0c54f] {
+  flex: 1;
+  overflow: auto hidden;
+}
+.u-tabs__wrapper__scroll-view[data-v-02b0c54f] {
+
+  display: flex;
+
+  flex-direction: row;
+  flex: 1;
+}
+.u-tabs__wrapper__nav[data-v-02b0c54f] {
+
+  display: flex;
+
+  flex-direction: row;
+  position: relative;
+}
+.u-tabs__wrapper__nav__item[data-v-02b0c54f] {
+  padding: 0 11px;
+
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.u-tabs__wrapper__nav__item--disabled[data-v-02b0c54f] {
+  cursor: not-allowed;
+}
+.u-tabs__wrapper__nav__item__text[data-v-02b0c54f] {
+  font-size: 15px;
+  color: #606266;
+}
+.u-tabs__wrapper__nav__item__text--disabled[data-v-02b0c54f] {
+  color: #c8c9cc !important;
+}
+.u-tabs__wrapper__nav__line[data-v-02b0c54f] {
+  height: 3px;
+  background: #3c9cff;
+  width: 30px;
+  position: absolute;
+  bottom: 2px;
+  border-radius: 100px;
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* uni.scss */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.com_cell2[data-v-2f830902] {
+  display: flex;
+  padding: 0.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 0.75rem;
+}
+.com_cell2 .cell2L[data-v-2f830902] {
+  width: 24%;
+  font-size: 0.9375rem;
+  padding: 0.5rem;
+}
+.com_cell2 .cell2L .cell2LItem[data-v-2f830902] {
+  height: 50%;
+}
+.com_cell2 .cell2R[data-v-2f830902] {
+  flex: 1;
+  background-color: #E8F0FD;
+  padding: 0.75rem;
+  font-size: 0.8125rem;
+  border-radius: 0.5rem;
+  line-height: 1.5rem;
+}
+.com_cell2 .cell2R .cell2RT[data-v-2f830902] {
+  font-size: 0.9375rem;
+  color: #6295E4;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+.com_cell2 .cell2RBlock[data-v-2f830902] {
+  padding: 0.25rem 0.625rem;
+  background-color: #f80;
+  color: #fff;
+  position: absolute;
+  top: 1.125rem;
+  right: -0.375rem;
+  font-size: 0.8125rem;
+  border-radius: 0.75rem;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* uni.scss */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.addBtn[data-v-87dd6bc8] {
+  width: 3.5rem;
+  height: 3.5rem;
+  position: fixed;
+  z-index: 1000;
+  border-radius: 50%;
+  bottom: 6%;
+  right: 8%;
+  background-image: url("../../static/icon/add.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #fff;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* uni.scss */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.applyWork {
+  padding: 0 1rem;
+  background-color: #F2F3F8;
+}
+.applyWork .applyWorkTop {
+  height: 3.5rem;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.applyWork .applyWorkBase {
+  margin-top: 3.5rem;
+}

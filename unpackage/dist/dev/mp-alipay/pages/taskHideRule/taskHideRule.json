@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "隐患治理",
+  "pullRefresh": false,
+  "usingComponents": {
+    "cell1": "../../components/cell1/cell1"
+  }
+}

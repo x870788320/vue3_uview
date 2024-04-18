@@ -1,0 +1,16 @@
+{
+  "defaultTitle": "",
+  "usingComponents": {
+    "u-radio": "../../uni_modules/uview-plus/components/u-radio/u-radio",
+    "u-radio-group": "../../uni_modules/uview-plus/components/u-radio-group/u-radio-group",
+    "u-checkbox": "../../uni_modules/uview-plus/components/u-checkbox/u-checkbox",
+    "u-checkbox-group": "../../uni_modules/uview-plus/components/u-checkbox-group/u-checkbox-group",
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button",
+    "u-datetime-picker": "../../uni_modules/uview-plus/components/u-datetime-picker/u-datetime-picker",
+    "u-picker": "../../uni_modules/uview-plus/components/u-picker/u-picker",
+    "my_sign": "../../components/my_sign/my_sign",
+    "user-list": "../../components/userList/userList",
+    "u-notify": "../../uni_modules/uview-plus/components/u-notify/u-notify",
+    "u-loading-icon": "../../uni_modules/uview-plus/components/u-loading-icon/u-loading-icon"
+  }
+}

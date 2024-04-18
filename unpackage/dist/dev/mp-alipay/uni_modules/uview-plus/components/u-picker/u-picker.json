@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "styleIsolation": "shared",
+  "usingComponents": {
+    "u-toolbar": "../u-toolbar/u-toolbar",
+    "u-loading-icon": "../u-loading-icon/u-loading-icon",
+    "u-popup": "../u-popup/u-popup"
+  }
+}

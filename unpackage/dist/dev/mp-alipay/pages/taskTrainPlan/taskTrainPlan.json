@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "培训列表",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-input": "../../uni_modules/uview-plus/components/u-input/u-input"
+  }
+}

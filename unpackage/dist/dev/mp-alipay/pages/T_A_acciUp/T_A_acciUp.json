@@ -1,0 +1,8 @@
+{
+  "defaultTitle": "事故上报",
+  "pullRefresh": false,
+  "usingComponents": {
+    "cell1": "../../components/cell1/cell1",
+    "add-btn": "../../components/addBtn/addBtn"
+  }
+}

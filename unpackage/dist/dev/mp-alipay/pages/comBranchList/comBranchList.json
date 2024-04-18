@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "",
+  "pullRefresh": false,
+  "usingComponents": {
+    "tree-menu": "../../components/treeMenu/treeMenu"
+  }
+}

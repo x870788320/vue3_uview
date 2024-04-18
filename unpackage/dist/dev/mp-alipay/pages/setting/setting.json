@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "恒通股份",
+  "pullRefresh": false,
+  "usingComponents": {
+    "my_sign": "../../components/my_sign/my_sign"
+  }
+}

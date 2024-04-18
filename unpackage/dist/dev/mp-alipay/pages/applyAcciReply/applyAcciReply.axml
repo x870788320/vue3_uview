@@ -1,0 +1,1 @@
+<view class="acciReply"><view class="applyAcciUpItem applyAcciUp4"><cell1 a:for="{{a}}" a:for-item="item" onHandleEvent="{{item.a}}" u-i="{{item.b}}" onVI="__l" u-p="{{item.c}}"></cell1></view></view>

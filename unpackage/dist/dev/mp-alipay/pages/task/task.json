@@ -1,0 +1,10 @@
+{
+  "defaultTitle": "恒通股份",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-input": "../../uni_modules/uview-plus/components/u-input/u-input",
+    "u-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon",
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button",
+    "u-notify": "../../uni_modules/uview-plus/components/u-notify/u-notify"
+  }
+}

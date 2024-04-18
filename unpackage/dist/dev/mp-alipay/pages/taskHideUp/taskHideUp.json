@@ -1,0 +1,10 @@
+{
+  "defaultTitle": "隐患上传",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-datetime-picker": "../../uni_modules/uview-plus/components/u-datetime-picker/u-datetime-picker",
+    "u-picker": "../../uni_modules/uview-plus/components/u-picker/u-picker",
+    "u-button": "../../uni_modules/uview-plus/components/u-button/u-button",
+    "user-list": "../../components/userList/userList"
+  }
+}

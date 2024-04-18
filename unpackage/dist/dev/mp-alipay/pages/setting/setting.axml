@@ -1,0 +1,1 @@
+<view class="setting"><view a:for="{{a}}" a:for-item="item" class="settingItem" onTap="{{item.c}}"><image class="settingItemImg" src="{{item.a}}" alt=""></image><text class="settingItemMsg">{{item.b}}</text></view><view a:if="{{b}}"><web-view src="{{c}}"></web-view></view><view a:if="{{false}}"><my_sign ref="__r" u-r="{{d}}" u-i="7e730412-0" onVI="__l"></my_sign></view></view>

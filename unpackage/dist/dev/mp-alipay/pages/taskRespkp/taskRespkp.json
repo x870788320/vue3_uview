@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "责任制考评",
+  "pullRefresh": false,
+  "usingComponents": {
+    "u-input": "../../uni_modules/uview-plus/components/u-input/u-input"
+  }
+}
